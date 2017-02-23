@@ -5,7 +5,7 @@ using static framework.Tests.DataProviders;
 namespace framework
 {
     [TestFixture]
-    [Parallelizable]//(ParallelScope.Fixtures)]
+   // [Parallelizable]//(ParallelScope.Fixtures)]
     class TestClassTests
     {
         /// <summary>
@@ -13,7 +13,7 @@ namespace framework
         /// </summary>
         /// <param name="menu"></param>
         [Test, TestCaseSource(typeof(TestCasesProvider), "TestCaseWithJournals")]
-        public static void testNavigation(MenuElement menu)
+        public static void testNavigation(MenuElement menu, string journalName)
         {
             NavigationPage navigationPage = new NavigationPage();
 
@@ -30,7 +30,7 @@ namespace framework
             }
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public static void Cleanup()
         {
             WebDriver.KillDriver();

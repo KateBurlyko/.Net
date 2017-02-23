@@ -27,7 +27,7 @@ namespace framework.Tests
                 {
                     foreach (MenuElement menu in jou.JournalInfo)
                     {
-                        yield return new TestCaseData(menu);
+                        yield return new TestCaseData(menu, menu.JournalTitle);
                     }
                 }
             }

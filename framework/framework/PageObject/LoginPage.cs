@@ -29,15 +29,20 @@ namespace framework.Tests.PageObject
             WebDriver.Driver.Navigate().GoToUrl("http://journals.lww.com/");
         }
 
+        private void Navigate(string journalName)
+        {
+            WebDriver.Driver.Navigate().GoToUrl($"http://journals.lww.com/{journalName}");
+        }
         /// <summary>
         /// 
         /// </summary>
         /// <param name="user">login</param>
         /// <param name="pasw">password</param>
         /// <returns>URL after login</returns>
-        public string LoginJournalPositive(string user, string pasw)
+        public string LoginJournalPositive(string user, string pasw, string journalName)
         {
-            Navigate();
+            Navigate(journalName);
+            Login.Click();
             LoginInput.SendKeys(user);
             PasswordInput.SendKeys(pasw);
             LoginButton.Click();

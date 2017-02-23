@@ -9,7 +9,7 @@ using static framework.Tests.DataProviders;
 namespace framework.mustransme
 {
     [TestFixture]
-    [Parallelizable]//(ParallelScope.Fixtures)]
+   // [Parallelizable]//(ParallelScope.Fixtures)]
     class SearchTests
     {
         [Test, TestCaseSource(typeof(TestCasesProvider), "TestCaseSearch")]

@@ -17,7 +17,7 @@ namespace framework
         /// <param name="jurnalName">Jurnal name</param>
         public void Navigate(string jurnalName)
         {
-            WebDriver.Driver.Navigate().GoToUrl("http://journals.lww.com/" + jurnalName);
+            WebDriver.Driver.Navigate().GoToUrl($"http://journals.lww.com/{jurnalName}");
         }
 
         /// <summary>

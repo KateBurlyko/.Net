@@ -12,7 +12,7 @@ using static framework.Tests.DataProviders;
 namespace framework.mustransme
 {
     [TestFixture]
-    [Parallelizable]//(ParallelScope.Fixtures)]
+    //[Parallelizable]//(ParallelScope.Fixtures)]
     class LoginTests
     {
         [Test]
@@ -28,14 +28,14 @@ namespace framework.mustransme
             }
         }
 
-        [Test, TestCaseSource(typeof(TestCasesProvider), "TestCaseWithJournals")]
-        public static void PositiveLoginTests(MenuElement menu)
-        {
-            LoginPage loginPage = new LoginPage();
-            NavigationPage navigationPage = new NavigationPage();
-            navigationPage.Navigate(menu.JournalTitle);
-            Assert.AreEqual("http://journals.lww.com/{menu.JournalTitle}/pages/default.aspx", loginPage.LoginJournalPositive(Data.Default.login, Data.Default.passwd));
-        }
+        //[Test, TestCaseSource(typeof(TestCasesProvider), "TestCaseWithJournals")]
+        //public static void PositiveLoginTests(MenuElement menu, string journalName)
+        //{
+        //    LoginPage loginPage = new LoginPage();
+        //    NavigationPage navigationPage = new NavigationPage();
+        //    navigationPage.Navigate(menu.JournalTitle);
+        //    Assert.AreEqual($"http://journals.lww.com/{menu.JournalTitle}/pages/default.aspx", loginPage.LoginJournalPositive(Data.Default.login, Data.Default.passwd, menu.JournalTitle));
+        //}
 
         [OneTimeTearDown]
         public static void Cleanup()
