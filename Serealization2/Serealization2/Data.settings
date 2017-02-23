@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Serealization2" GeneratedClassName="Data">
+  <Profiles />
+  <Settings>
+    <Setting Name="PathToRead" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Katsiaryna_Burlyka\Desktop\BooksCopy.xml</Value>
+    </Setting>
+    <Setting Name="PathToWrite" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Katsiaryna_Burlyka\Desktop\person.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
