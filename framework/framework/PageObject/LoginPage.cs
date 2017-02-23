@@ -17,7 +17,7 @@ namespace framework.Tests.PageObject
 
         public string FindError()
         {
-            return WebDriver.Driver.FindElement(By.XPath($".//*[@id='ctl00_ctl45_g_e504d159_38de_4cbf_9f4d_b2c12b300979_ctl00_cvLoginSuccess']/div/p")).Text;
+            return WebDriver.Driver.FindElement(By.XPath("//*[contains(@id, 'ctl00_ctl45_g_818e981e_cd12_4836_8e55_9fe5e199454d_ctl00_LoginControl_cvLoginSuccess')]")).Text;
         }
 
         /// <summary>

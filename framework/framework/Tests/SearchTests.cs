@@ -32,7 +32,7 @@ namespace framework.mustransme
             
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public static void Cleanup()
         {
             WebDriver.KillDriver();

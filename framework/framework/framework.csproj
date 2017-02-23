@@ -113,6 +113,10 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Data.Designer.cs</LastGenOutput>
     </None>
+    <None Include="InfoFileForTest\advansedSearch.csv" />
+    <None Include="InfoFileForTest\Batch4.xlsx" />
+    <None Include="InfoFileForTest\login.csv" />
+    <None Include="InfoFileForTest\search.csv" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

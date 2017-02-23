@@ -1,0 +1,4 @@
+login,password,expected
+Kate_Eds,qwerty12345,Invalid username or password. Try again or register an account.
+Kate_Ed,qwerty123456,Invalid username or password. Try again or register an account.
+gotkakate@mail.ru,qwert123456,Invalid username or password. Try again or register an account.

@@ -1,0 +1,22 @@
+keywords,,,,
+dplScope_1,keywords_input_1,,,AllFields
+dplScope_2,keywords_input_2,liver,,Title
+dplScope_3,keywords_input_3,,,Author
+dplScope_4,keywords_input_4,,,Abstract
+dplScope_5,keywords_input_5,,,Full Text
+dplScope_6,keywords_input_6,,,Volume
+dplScope_7,keywords_input_7,liver,,Issue
+contentTypes,,,,
+Article,+,,,
+Image,+,,,
+Podcast,,,,
+Video,,,,
+Blog,,,,
+CME,,,,
+SDC,,,,
+PublicationDates,,,,
+All Dates,,,,
+Last 12 Months,+,,,
+Last 3 Years,,,,
+Last 5 Years,,,,
+Last 8 Years,,,,

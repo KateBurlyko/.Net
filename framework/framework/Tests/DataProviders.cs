@@ -22,7 +22,7 @@ namespace framework.Tests
                 AllJournals all = new AllJournals();
                 WorkingWithExcel work = new WorkingWithExcel();
 
-                List<Journal> list = work.GetJournalInfo(all, Data.Default.pathBatchHome, journa);
+                List<Journal> list = work.GetJournalInfo(all, Data.Default.pathBatch, journa);
                 foreach (Journal jou in list)
                 {
                     foreach (MenuElement menu in jou.JournalInfo)

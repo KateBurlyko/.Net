@@ -25,15 +25,6 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:/Users/Katsiaryna_Burlyka/Desktop/batch4.xlsx")]
-        public string pathBatchHome {
-            get {
-                return ((string)(this["pathBatchHome"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("eaoms")]
         public string JournalName {
             get {
@@ -53,29 +44,11 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:/Users/Katsiaryna_Burlyka/Desktop/batch4.xlsx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
+            "work\\InfoFileForTest\\batch4.xlsx")]
         public string pathBatch {
             get {
                 return ((string)(this["pathBatch"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Desktop\\framework\\packages\\Selenium.WebDriver.ChromeDriver.2.27.0\\" +
-            "driver")]
-        public string pathDriverHome {
-            get {
-                return ((string)(this["pathDriverHome"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Desktop\\allBatches")]
-        public string allbatchesHome {
-            get {
-                return ((string)(this["allbatchesHome"]));
             }
         }
         
@@ -108,7 +81,8 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Desktop\\login.csv")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
+            "work\\InfoFileForTest\\login.csv")]
         public string loginPath {
             get {
                 return ((string)(this["loginPath"]));
@@ -117,25 +91,8 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Desktop\\login.csv")]
-        public string loginPathHome {
-            get {
-                return ((string)(this["loginPathHome"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Desktop\\search.csv")]
-        public string SearchPathHome {
-            get {
-                return ((string)(this["SearchPathHome"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Desktop\\advansedSearch.csv")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
+            "work\\InfoFileForTest\\advansedSearch.csv")]
         public string AdvancedSearchHome {
             get {
                 return ((string)(this["AdvancedSearchHome"]));
@@ -144,7 +101,8 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Desktop\\task\\search.csv")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
+            "work\\InfoFileForTest\\search.csv")]
         public string SearchPath {
             get {
                 return ((string)(this["SearchPath"]));

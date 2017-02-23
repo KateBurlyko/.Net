@@ -2,9 +2,6 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="framework" GeneratedClassName="Data">
   <Profiles />
   <Settings>
-    <Setting Name="pathBatchHome" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:/Users/Katsiaryna_Burlyka/Desktop/batch4.xlsx</Value>
-    </Setting>
     <Setting Name="JournalName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">eaoms</Value>
     </Setting>
@@ -12,13 +9,7 @@
       <Value Profile="(Default)">C:/Users/Katsiaryna_Burlyka/Documents/Visual Studio 2015/Projects/framework/packages/Selenium.WebDriver.ChromeDriver.2.27.0/driver</Value>
     </Setting>
     <Setting Name="pathBatch" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:/Users/Katsiaryna_Burlyka/Desktop/batch4.xlsx</Value>
-    </Setting>
-    <Setting Name="pathDriverHome" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\Janek\Desktop\framework\packages\Selenium.WebDriver.ChromeDriver.2.27.0\driver</Value>
-    </Setting>
-    <Setting Name="allbatchesHome" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\Janek\Desktop\allBatches</Value>
+      <Value Profile="(Default)">C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\InfoFileForTest\batch4.xlsx</Value>
     </Setting>
     <Setting Name="driver" Type="System.String" Scope="Application">
       <Value Profile="(Default)">chrome</Value>
@@ -30,19 +21,13 @@
       <Value Profile="(Default)">qwerty123456</Value>
     </Setting>
     <Setting Name="loginPath" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\Katsiaryna_Burlyka\Desktop\login.csv</Value>
-    </Setting>
-    <Setting Name="loginPathHome" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\Janek\Desktop\login.csv</Value>
-    </Setting>
-    <Setting Name="SearchPathHome" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\Janek\Desktop\search.csv</Value>
+      <Value Profile="(Default)">C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\InfoFileForTest\login.csv</Value>
     </Setting>
     <Setting Name="AdvancedSearchHome" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\Janek\Desktop\advansedSearch.csv</Value>
+      <Value Profile="(Default)">C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\InfoFileForTest\advansedSearch.csv</Value>
     </Setting>
     <Setting Name="SearchPath" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Users\Katsiaryna_Burlyka\Desktop\task\search.csv</Value>
+      <Value Profile="(Default)">C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\InfoFileForTest\search.csv</Value>
     </Setting>
   </Settings>
 </SettingsFile>

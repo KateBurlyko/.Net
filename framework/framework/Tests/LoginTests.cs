@@ -37,7 +37,7 @@ namespace framework.mustransme
             Assert.AreEqual("http://journals.lww.com/{menu.JournalTitle}/pages/default.aspx", loginPage.LoginJournalPositive(Data.Default.login, Data.Default.passwd));
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public static void Cleanup()
         {
             WebDriver.KillDriver();
