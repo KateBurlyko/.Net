@@ -76,3 +76,6 @@ C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\We
 C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\obj\Debug\framework.csprojResolveAssemblyReference.cache
 C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\obj\Debug\framework.dll
 C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\obj\Debug\framework.pdb
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Microsoft.Owin.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Owin.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Microsoft.Owin.xml

@@ -28,14 +28,14 @@ namespace framework.mustransme
             }
         }
 
-        //[Test, TestCaseSource(typeof(TestCasesProvider), "TestCaseWithJournals")]
-        //public static void PositiveLoginTests(MenuElement menu, string journalName)
-        //{
-        //    LoginPage loginPage = new LoginPage();
-        //    NavigationPage navigationPage = new NavigationPage();
-        //    navigationPage.Navigate(menu.JournalTitle);
-        //    Assert.AreEqual($"http://journals.lww.com/{menu.JournalTitle}/pages/default.aspx", loginPage.LoginJournalPositive(Data.Default.login, Data.Default.passwd, menu.JournalTitle));
-        //}
+        [Test, TestCaseSource(typeof(TestCasesProvider), "TestCaseWithJournals")]
+        public static void PositiveLoginTests(MenuElement menu, string journalName)
+        {
+            LoginPage loginPage = new LoginPage();
+            NavigationPage navigationPage = new NavigationPage();
+            navigationPage.Navigate(menu.JournalTitle);
+            Assert.AreEqual($"http://journals.lww.com/{menu.JournalTitle}/pages/default.aspx", loginPage.LoginJournalPositive(Data.Default.login, Data.Default.passwd, menu.JournalTitle));
+        }
 
         [OneTimeTearDown]
         public static void Cleanup()
