@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AllUsers>
+  <user>
+    <login>sdf</login>
+    <password>" "</password>
+    <expected>Invalid username or password. Try again or register an account.</expected>
+  </user>
+  <user>
+    <login>adf</login>
+    <password>12345678</password>
+    <expected>Invalid username or password. Try again or register an account.</expected>
+  </user>
+</AllUsers>

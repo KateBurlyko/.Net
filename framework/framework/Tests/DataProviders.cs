@@ -1,4 +1,6 @@
-﻿using framework.JournalItem;
+﻿using framework.DeserealizationData;
+using framework.DeserealizationData.LoginData;
+using framework.JournalItem;
 using framework.Parser;
 using framework.Search;
 using framework.Tests.PageObject;
@@ -40,6 +42,16 @@ namespace framework.Tests
                 foreach (BaseSearch query in queryList)
                 {
                     yield return new TestCaseData(query);
+                }
+            }
+
+            public static IEnumerable NegativeLoginData()
+            {
+                Deserialization des = new Deserialization();
+                AllUsers allUsers = des.DeserialiseLogInData(DesirialisationData.Default.loginPath);
+                foreach (User all in allUsers.Users)
+                {
+                    yield return new TestCaseData(all.Login, all.Password, all.Expected);
                 }
             }
         }

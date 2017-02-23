@@ -22,38 +22,37 @@ namespace framework
         {
             get
             {
-
-                if (driver == null)
+                switch (Data.Default.driver)
                 {
-                    driver = new ChromeDriver(Data.Default.pathDriver);
-                    driver.Manage().Window.Maximize();
+                    case "chrome":
+                        if (driver == null)
+                        {
+                            driver = new ChromeDriver(Data.Default.pathDriver);
+                            driver.Manage().Window.Maximize();
+                        }
+                        break;
+                    case "firefox":
+                        if (driver != null)
+                        {
+                            driver = new FirefoxDriver();
+                            driver.Manage().Window.Maximize();
+                        }
+                        break;
+                    case "opera":
+                        if (driver == null)
+                        {
+
+                            driver.Manage().Window.Maximize();
+                        }
+                        break;
                 }
-
-                //switch (Data.Default.driver)
-                //{
-                //    case "chrome":
-                //        if (driver == null)
-                //        {
-                //            driver = new ChromeDriver(Data.Default.pathDriver);
-                //            driver.Manage().Window.Maximize();
-                //        }
-                //        break;
-                //    case "firefox":
-                //        if (driver != null)
-                //        {
-                //            driver = new FirefoxDriver();
-                //            driver.Manage().Window.Maximize();
-                //        }
-                //        break;
-                //    case "opera":
-                //        if (driver == null)
-                //        {
-
-                //            driver.Manage().Window.Maximize();
-                //        }
-                //        break;
-                //}
                 return driver;
+
+                //if (driver == null)
+                //{
+                //    driver = new ChromeDriver(Data.Default.pathDriver);
+                //    driver.Manage().Window.Maximize();
+                //}
             }
         }
 

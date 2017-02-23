@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using framework.DeserealizationData;
+using framework.DeserealizationData.LoginData;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -17,5 +19,11 @@ namespace framework.Tests
             string qwe = ConfigurationManager.AppSettings["chrome"];
         }
 
+        [Test]
+        public static void dess()
+        {
+            Deserialization des = new Deserialization();
+          //  des.DeserialiseLogInData();
+        }
     }
 }
