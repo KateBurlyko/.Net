@@ -1,0 +1,78 @@
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\framework.dll
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\framework.pdb
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\obj\Debug\framework.csprojResolveAssemblyReference.cache
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\obj\Debug\framework.dll
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\obj\Debug\framework.pdb
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\Excel.dll
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\Excel.pdb
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\framework.dll.config
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\nunit.framework.dll
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\WebDriver.dll
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\nunit.framework.xml
+c:\users\janek\documents\visual studio 2015\Projects\framework\framework\bin\Debug\WebDriver.xml
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\framework.dll.config
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\framework.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\framework.pdb
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Excel.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\nunit.framework.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\WebDriver.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Excel.pdb
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\nunit.framework.xml
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\WebDriver.xml
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\obj\Debug\framework.csprojResolveAssemblyReference.cache
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\obj\Debug\framework.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\obj\Debug\framework.pdb
+G:\framework\framework\bin\Debug\framework.dll.config
+G:\framework\framework\bin\Debug\framework.dll
+G:\framework\framework\bin\Debug\framework.pdb
+G:\framework\framework\bin\Debug\Excel.dll
+G:\framework\framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\framework\framework\bin\Debug\nunit.framework.dll
+G:\framework\framework\bin\Debug\WebDriver.dll
+G:\framework\framework\bin\Debug\Excel.pdb
+G:\framework\framework\bin\Debug\nunit.framework.xml
+G:\framework\framework\bin\Debug\WebDriver.xml
+G:\framework\framework\obj\Debug\framework.csprojResolveAssemblyReference.cache
+G:\framework\framework\obj\Debug\framework.dll
+G:\framework\framework\obj\Debug\framework.pdb
+C:\Users\Janek\Desktop\framework\framework\obj\Debug\framework.csprojResolveAssemblyReference.cache
+C:\Users\Janek\Desktop\framework\framework\obj\Debug\framework.dll
+C:\Users\Janek\Desktop\framework\framework\obj\Debug\framework.pdb
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\framework.dll.config
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\framework.dll
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\framework.pdb
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\Excel.dll
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\nunit.framework.dll
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\WebDriver.dll
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\Excel.pdb
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\nunit.framework.xml
+C:\Users\Janek\Desktop\framework\framework\bin\Debug\WebDriver.xml
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\framework.dll.config
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\framework.dll
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\framework.pdb
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\Excel.dll
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\nunit.framework.dll
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\WebDriver.dll
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\Excel.pdb
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\nunit.framework.xml
+C:\Users\Janek\Desktop\framework - Copy\framework\bin\Debug\WebDriver.xml
+C:\Users\Janek\Desktop\framework - Copy\framework\obj\Debug\framework.csprojResolveAssemblyReference.cache
+C:\Users\Janek\Desktop\framework - Copy\framework\obj\Debug\framework.dll
+C:\Users\Janek\Desktop\framework - Copy\framework\obj\Debug\framework.pdb
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\framework.dll.config
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\framework.dll
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\framework.pdb
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\Excel.dll
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\nunit.framework.dll
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\WebDriver.dll
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\Excel.pdb
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\nunit.framework.xml
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\bin\Debug\WebDriver.xml
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\obj\Debug\framework.csprojResolveAssemblyReference.cache
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\obj\Debug\framework.dll
+C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\obj\Debug\framework.pdb
