@@ -34,8 +34,8 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:/Users/Katsiaryna_Burlyka/Documents/Visual Studio 2015/Projects/framework/packa" +
-            "ges/Selenium.WebDriver.ChromeDriver.2.27.0/driver")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:/Users/Janek/Documents/Visual Studio 2015/Projects/framework/packages/Selenium." +
+            "WebDriver.ChromeDriver.2.27.0/driver")]
         public string pathDriver {
             get {
                 return ((string)(this["pathDriver"]));
@@ -44,8 +44,8 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
-            "work\\InfoFileForTest\\batch4.xlsx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Documents\\Visual Studio 2015\\Projects\\framework\\framework\\InfoFile" +
+            "ForTest\\batch4.xlsx")]
         public string pathBatch {
             get {
                 return ((string)(this["pathBatch"]));
@@ -81,8 +81,8 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
-            "work\\InfoFileForTest\\login.csv")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Documents\\Visual Studio 2015\\Projects\\framework\\framework\\InfoFile" +
+            "ForTest\\login.csv")]
         public string loginPath {
             get {
                 return ((string)(this["loginPath"]));
@@ -91,8 +91,8 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
-            "work\\InfoFileForTest\\advansedSearch.csv")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Documents\\Visual Studio 2015\\Projects\\framework\\framework\\InfoFile" +
+            "ForTest\\advansedSearch.csv")]
         public string AdvancedSearchHome {
             get {
                 return ((string)(this["AdvancedSearchHome"]));
@@ -101,8 +101,8 @@ namespace framework {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
-            "work\\InfoFileForTest\\search.csv")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Documents\\Visual Studio 2015\\Projects\\framework\\framework\\InfoFile" +
+            "ForTest\\search.csv")]
         public string SearchPath {
             get {
                 return ((string)(this["SearchPath"]));

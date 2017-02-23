@@ -79,3 +79,6 @@ C:\Users\Katsiaryna_Burlyka\Desktop\task\framework - Copy\framework\obj\Debug\fr
 C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Microsoft.Owin.dll
 C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Owin.dll
 C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Microsoft.Owin.xml
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Microsoft.Owin.dll
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Owin.dll
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\framework\framework\bin\Debug\Microsoft.Owin.xml

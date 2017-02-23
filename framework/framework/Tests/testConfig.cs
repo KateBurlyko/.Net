@@ -14,7 +14,7 @@ namespace framework.Tests
         [Test]
         public static void test()
         {
-            string qwe = ConfigurationManager.AppSettings.Get("Key0");
+            string qwe = ConfigurationManager.AppSettings["chrome"];
         }
 
     }
