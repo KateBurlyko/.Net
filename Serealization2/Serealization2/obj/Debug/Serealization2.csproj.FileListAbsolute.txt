@@ -13,3 +13,11 @@ C:\Users\Katsiaryna_Burlyka\Desktop\Serealization2\Serealization2\bin\Debug\nuni
 C:\Users\Katsiaryna_Burlyka\Desktop\Serealization2\Serealization2\obj\Debug\Serealization2.csprojResolveAssemblyReference.cache
 C:\Users\Katsiaryna_Burlyka\Desktop\Serealization2\Serealization2\obj\Debug\Serealization2.dll
 C:\Users\Katsiaryna_Burlyka\Desktop\Serealization2\Serealization2\obj\Debug\Serealization2.pdb
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\Serealization2\Serealization2\bin\Debug\Serealization2.dll.config
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\Serealization2\Serealization2\bin\Debug\Serealization2.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\Serealization2\Serealization2\bin\Debug\Serealization2.pdb
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\Serealization2\Serealization2\bin\Debug\nunit.framework.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\Serealization2\Serealization2\bin\Debug\nunit.framework.xml
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\Serealization2\Serealization2\obj\Debug\Serealization2.csprojResolveAssemblyReference.cache
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\Serealization2\Serealization2\obj\Debug\Serealization2.dll
+C:\Users\Katsiaryna_Burlyka\Documents\Visual Studio 2015\Projects\Serealization2\Serealization2\obj\Debug\Serealization2.pdb

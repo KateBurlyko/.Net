@@ -30,7 +30,7 @@ namespace Serealization2
             Catalog catalog = deserealize.DoDeserealization(formatter, Data.Default.PathToRead);
             serealize.DoSerealization(catalog, formatter, Data.Default.PathToWrite);
             long finishSize = fw.GetSize(Data.Default.PathToWrite);
-            fw.Delete(Data.Default.PathToWrite);
+           // fw.Delete(Data.Default.PathToWrite);
             Assert.IsTrue(finishSize>startSize);
         }
     }
