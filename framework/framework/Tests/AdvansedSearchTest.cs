@@ -17,11 +17,13 @@ namespace framework.Tests
         public static void AdvanseSearchTest(List<Keywords> keywords, List<ContentTypes> contentTypes, List<PublicationDates> dates)
         {
             AdvansedSearchPage asp = new AdvansedSearchPage();
-            for(int i = 0; i<keywords.Count; i++)
-            {
-                keywords
-            }
-            asp.InputKeywords(keywords.);
+            foreach (Keywords ke in keywords) {
+                asp.InputKeywords(keywords.);
+
+                List<string> somedata = new List<string>();
+                somedata.Add(ke.Abstract);
+
+                    }
         }
 
         [OneTimeTearDown]
