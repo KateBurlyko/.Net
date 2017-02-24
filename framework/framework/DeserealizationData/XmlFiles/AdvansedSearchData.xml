@@ -2,13 +2,22 @@
 <SearchParams>
   <SearchItems>
     <Keywords>
-      <allFields idAllFields="1">stomach</allFields>
-      <title idTitle="2"></title>
-      <author idAuthor="3"></author>
-      <abstract idAbctract="4"></abstract>
-      <fullText idFullText="5"></fullText>
-      <volume idVolume="6"></volume>
-      <issue idIssue="7">stomach</issue>
+      <allFields>stomach</allFields>
+      <title></title>
+      <author></author>
+      <abstract></abstract>
+      <fullText></fullText>
+      <volume></volume>
+      <issue>stomach</issue>
+
+      <idAllFields>1</idAllFields>
+      <idTitle></idTitle>
+      <idAuthor></idAuthor>
+      <idAbctract></idAbctract>
+      <idFullText></idFullText>
+      <idVolume></idVolume>
+      <idIssue>7</idIssue>
+
     </Keywords>
     <ContentTypes>
       <articles>Article</articles>

@@ -1,11 +1,7 @@
 ﻿using framework.DeserealizationData.AdvansedSearch;
 using framework.PageObject;
 using NUnit.Framework;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static framework.Tests.DataProviders;
 
 namespace framework.Tests
@@ -14,22 +10,33 @@ namespace framework.Tests
     class AdvansedSearchTest
     {
         [Test, TestCaseSource(typeof(TestCasesProvider), "AdvansedSearchData")]
-        public static void AdvanseSearchTest(List<Keywords> keywords, List<ContentTypes> contentTypes, List<PublicationDates> dates)
+        public static void AdvanseSearchTest(List<ContentTypes> contentTypes, List<PublicationDates> dates, List<Keywords> keywords)
         {
             AdvansedSearchPage asp = new AdvansedSearchPage();
-            foreach (Keywords ke in keywords) {
-                asp.InputKeywords(keywords.);
-
-                List<string> somedata = new List<string>();
-                somedata.Add(ke.Abstract);
-
-                    }
+            AdderTitles addTitles = new AdderTitles();
+            AdderTypesAndLimits adder = new AdderTypesAndLimits();
+            List<TitleItems> items = addTitles.AddTitles(keywords);
+            List<ContentItems> limits = adder.AddLimits(contentTypes);
+            List<ContentItems> types = adder.AddTitles(contentTypes);
+            asp.Navigate();
+            foreach (TitleItems ti in items)
+            {
+                asp.InputKeywords(ti.IdTitle, ti.Title);
+            }
+            foreach (ContentItems ct in types)
+            {
+                asp.ChoseContentTypes(ct.TypesAndLimits);
+            }
+            foreach (ContentItems ct in limits)
+            {
+                asp.ChooseLimitToContent(ct.TypesAndLimits);
+            }
         }
 
-        [OneTimeTearDown]
-        public static void Cleanup()
-        {
-            WebDriver.KillDriver();
-        }
+        //[OneTimeTearDown]
+        //public static void Cleanup()
+        //{
+        //    WebDriver.KillDriver();
+        //}
     }
 }

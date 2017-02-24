@@ -5,49 +5,50 @@ using System.Xml.Serialization;
 namespace framework.DeserealizationData.AdvansedSearch
 {
     [Serializable]
-   public class Keywords
+    public class Keywords
     {
         [XmlElement("allFields")]
         public string AllFields { get; set; }
 
-        [XmlAttribute("idAllFields")]
-        public int IDAllFields { get; set; }
-
         [XmlElement("title")]
         public string Title { get; set; }
-
-        [XmlAttribute("idTitle")]
-        public int IDTitle { get; set; }
 
         [XmlElement("author")]
         public string Author { get; set; }
 
-        [XmlAttribute("idAuthor")]
-        public int IDAuthor { get; set; }
-
         [XmlElement("abstract")]
         public string Abstract { get; set; }
-
-        [XmlAttribute("idAbstract")]
-        public int IDAbstract { get; set; }
 
         [XmlElement("fullText")]
         public string FullText { get; set; }
 
-        [XmlAttribute("idFullText")]
-        public int IDFullText { get; set; }
-
         [XmlElement("volume")]
         public string Volume { get; set; }
-
-        [XmlAttribute("idVolume")]
-        public int IDVolume { get; set; }
 
         [XmlElement("issue")]
         public string Issue { get; set; }
 
-        [XmlAttribute("idIssue")]
-        public int IDIssue { get; set; }
+
+        [XmlElement("idAllFields")]
+        public string IDAllFields { get; set; }
+
+        [XmlElement("idTitle")]
+        public string IDTitle { get; set; }
+
+        [XmlElement("idAuthor")]
+        public string IDAuthor { get; set; }
+
+        [XmlElement("idAbstract")]
+        public string IDAbstract { get; set; }
+
+        [XmlElement("idFullText")]
+        public string IDFullText { get; set; }
+
+        [XmlElement("idVolume")]
+        public string IDVolume { get; set; }
+
+        [XmlElement("idIssue")]
+        public string IDIssue { get; set; }
     }
 
     [Serializable]
@@ -84,8 +85,8 @@ namespace framework.DeserealizationData.AdvansedSearch
 
     [Serializable]
     public class PublicationDates
-    {      
-            [XmlElement("allDates")]
+    {
+        [XmlElement("allDates")]
         public string AllDates { get; set; }
 
         [XmlElement("twelveMounth")]

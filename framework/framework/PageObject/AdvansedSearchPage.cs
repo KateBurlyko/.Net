@@ -4,7 +4,7 @@ namespace framework.PageObject
 {
     class AdvansedSearchPage
     {
-        public IWebElement FindTextBox(int numberBox)
+        public IWebElement FindTextBox(string numberBox)
         {
            return WebDriver.Driver.FindElement(By.Id($"keywords_input_{numberBox}"));
         }
@@ -14,7 +14,7 @@ namespace framework.PageObject
             WebDriver.Driver.Navigate().GoToUrl($"http://journals.lww.com/pages/advancedsearch.aspx");
         }
 
-        public void InputKeywords(int numberBox, string query)
+        public void InputKeywords(string numberBox, string query)
         {
             FindTextBox(numberBox).Clear();
             FindTextBox(numberBox).Click();
