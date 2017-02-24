@@ -1,5 +1,4 @@
 ﻿using framework.JournalItem;
-using framework.Parser;
 using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;

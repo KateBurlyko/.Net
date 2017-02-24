@@ -11,6 +11,8 @@ namespace framework.DeserealizationData.SearchData
     {
         [XmlElement("query")]
         public List<Query> Queries { get; set; }
+
+
         public List<Query> GetQuery(AllQueries all)
         {
             List<Query> list = new List<Query>();

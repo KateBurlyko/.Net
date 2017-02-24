@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SearchParams>
+  <SearchItems>
+    <Keywords>
+      <allFields idAllFields="1">stomach</allFields>
+      <title idTitle="2"></title>
+      <author idAuthor="3"></author>
+      <abstract idAbctract="4"></abstract>
+      <fullText idFullText="5"></fullText>
+      <volume idVolume="6"></volume>
+      <issue idIssue="7">stomach</issue>
+    </Keywords>
+    <ContentTypes>
+      <articles>Article</articles>
+      <images>Image</images>
+      <podcast></podcast>
+      <videos></videos>
+      <blogs>Blog</blogs>
+      <LimitToContentWith>
+        <cmeCE></cmeCE>
+        <SDC>SDC</SDC>
+      </LimitToContentWith>
+    </ContentTypes>
+    <PublicationDates>
+      <allDates>0</allDates>
+      <twelveMounth></twelveMounth>
+      <threeYears></threeYears>
+      <fiveYears></fiveYears>
+      <eightYears></eightYears>
+    </PublicationDates>
+  </SearchItems>
+</SearchParams>

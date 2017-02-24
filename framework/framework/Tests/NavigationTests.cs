@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using framework.Tests.PageObject;
 using static framework.Tests.DataProviders;
 
 namespace framework

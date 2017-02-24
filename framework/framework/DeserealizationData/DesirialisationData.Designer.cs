@@ -25,8 +25,8 @@ namespace framework.DeserealizationData {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Documents\\Visual Studio 2015\\Projects\\framework\\framework\\Desereal" +
-            "izationData\\XmlFiles\\loginData.xml")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
+            "work\\DeserealizationData\\XmlFiles\\loginData.xml")]
         public string loginPath {
             get {
                 return ((string)(this["loginPath"]));
@@ -35,11 +35,21 @@ namespace framework.DeserealizationData {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Documents\\Visual Studio 2015\\Projects\\framework\\framework\\Desereal" +
-            "izationData\\XmlFiles\\SearchData.xml")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
+            "work\\DeserealizationData\\XmlFiles\\SearchData.xml")]
         public string searchData {
             get {
                 return ((string)(this["searchData"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Katsiaryna_Burlyka\\Documents\\Visual Studio 2015\\Projects\\framework\\frame" +
+            "work\\DeserealizationData\\XmlFiles\\AdvansedSearchData.xml")]
+        public string advansedSearchData {
+            get {
+                return ((string)(this["advansedSearchData"]));
             }
         }
     }

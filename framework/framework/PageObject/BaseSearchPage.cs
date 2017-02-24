@@ -1,5 +1,4 @@
-﻿using framework.Search;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +7,7 @@ using System.Text;
 
 namespace framework.Tests.PageObject
 {
-    class SearchPage
+    class BaseSearchPage
     {
         public object BaseSearch { get; private set; }
 
@@ -26,12 +25,6 @@ namespace framework.Tests.PageObject
                 result = true;
             }
             return result;
-        }
-
-        public void FindAdvanses()
-        {
-            AdvansedSearch advansedSearch = new AdvansedSearch();
-            
         }
     }
 }

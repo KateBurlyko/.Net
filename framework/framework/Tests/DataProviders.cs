@@ -1,10 +1,8 @@
 ﻿using framework.DeserealizationData;
+using framework.DeserealizationData.AdvansedSearch;
 using framework.DeserealizationData.LoginData;
 using framework.DeserealizationData.SearchData;
 using framework.JournalItem;
-using framework.Parser;
-using framework.Search;
-using framework.Tests.PageObject;
 using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
@@ -31,17 +29,6 @@ namespace framework.Tests
                 }
             }
 
-            public static IEnumerable TestCaseSearch()
-            {
-                SearchPage sp = new SearchPage();
-                CSVParser par = new CSVParser();
-                List<BaseSearch> queryList = par.GetSearcgQuery();
-                foreach (BaseSearch query in queryList)
-                {
-                    yield return new TestCaseData(query);
-                }
-            }
-
             public static IEnumerable NegativeLoginData()
             {
                 Deserialization des = new Deserialization();
@@ -60,6 +47,16 @@ namespace framework.Tests
                 foreach (Query sin in query)
                 {
                     yield return new TestCaseData(sin.Querys, sin.Expected);
+                }
+            }
+
+            public static IEnumerable AdvansedSearchData()
+            {
+                Deserialization des = new Deserialization();
+                SearchParams all = des.DeserialiseAdvansedSearchQuery(DesirialisationData.Default.advansedSearchData);
+                foreach (SearchItems sin in all.Items)
+                {
+                    yield return new TestCaseData(sin.Contents, sin.Dates, sin.Keys);
                 }
             }
         }

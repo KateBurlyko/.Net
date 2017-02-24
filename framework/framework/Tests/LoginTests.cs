@@ -1,5 +1,4 @@
-﻿using framework.Login;
-using framework.Parser;
+﻿using framework.DeserealizationData.LoginData;
 using framework.Tests.PageObject;
 using NUnit.Framework;
 using System;
@@ -19,22 +18,16 @@ namespace framework.mustransme
         public static void NegativeLoginTests(string login, string password, string expected)
         {
             LoginPage loginPage = new LoginPage();
-            CSVParser par = new CSVParser();
-            List<LoginData> list = par.GetLogin();
-            //foreach (LoginData lg in list)
-            //{
                 loginPage.LoginJournalNegative(login, password);
                 Assert.AreEqual(expected, loginPage.FindError());
-           // }
         }
         
-        [Test, TestCaseSource(typeof(TestCasesProvider), "TestCaseWithJournals")]
-        public static void PositiveLoginTests(MenuElement menu, string journalName)
+        public static void PositiveLoginTests()
         {
             LoginPage loginPage = new LoginPage();
             NavigationPage navigationPage = new NavigationPage();
-            navigationPage.Navigate(menu.JournalTitle);
-            Assert.AreEqual($"http://journals.lww.com/{menu.JournalTitle}/pages/default.aspx", loginPage.LoginJournalPositive(Data.Default.login, Data.Default.passwd, menu.JournalTitle));
+            navigationPage.Navigate(Data.Default.JournalName);
+            Assert.AreEqual($"http://journals.lww.com/{Data.Default.JournalName}/pages/default.aspx", loginPage.LoginJournalPositive(Data.Default.login, Data.Default.passwd, Data.Default.JournalName));
         }
 
         [OneTimeTearDown]

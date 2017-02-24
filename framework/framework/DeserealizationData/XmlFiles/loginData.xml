@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AllUsers>
   <user>
-    <login>sdf</login>
-    <password>" "</password>
+    <login>Kate_Eds</login>
+    <password>qwert123456</password>
+    <expected>Invalid username or password. Try again or register an account.</expected>
+  </user>
+  <user>
+    <login>Kate_Ed</login>
+    <password>qwerty123456</password>
+    <expected>Invalid username or password. Try again or register an account.</expected>
+  </user>
+  <user>
+    <login>gotkakate@mail.ru</login>
+    <password>qwert12345</password>
     <expected>Invalid username or password. Try again or register an account.</expected>
   </user>
   <user>
