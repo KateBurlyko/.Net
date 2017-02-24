@@ -32,5 +32,15 @@ namespace framework.DeserealizationData {
                 return ((string)(this["loginPath"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Janek\\Documents\\Visual Studio 2015\\Projects\\framework\\framework\\Desereal" +
+            "izationData\\XmlFiles\\SearchData.xml")]
+        public string searchData {
+            get {
+                return ((string)(this["searchData"]));
+            }
+        }
     }
 }

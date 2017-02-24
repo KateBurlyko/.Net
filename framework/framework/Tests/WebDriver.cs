@@ -22,37 +22,36 @@ namespace framework
         {
             get
             {
-                switch (Data.Default.driver)
+                if (driver == null)
                 {
-                    case "chrome":
-                        if (driver == null)
-                        {
-                            driver = new ChromeDriver(Data.Default.pathDriver);
-                            driver.Manage().Window.Maximize();
-                        }
-                        break;
-                    case "firefox":
-                        if (driver != null)
-                        {
-                            driver = new FirefoxDriver();
-                            driver.Manage().Window.Maximize();
-                        }
-                        break;
-                    case "opera":
-                        if (driver == null)
-                        {
-
-                            driver.Manage().Window.Maximize();
-                        }
-                        break;
+                    driver = new ChromeDriver(Data.Default.pathDriver);
+                    driver.Manage().Window.Maximize();
                 }
-                return driver;
-
-                //if (driver == null)
+                //switch (Data.Default.driver)
                 //{
-                //    driver = new ChromeDriver(Data.Default.pathDriver);
-                //    driver.Manage().Window.Maximize();
+                //    case "chrome":
+                //        if (driver == null)
+                //        {
+                //            driver = new ChromeDriver(Data.Default.pathDriver);
+                //            driver.Manage().Window.Maximize();
+                //        }
+                //        break;
+                //    case "firefox":
+                //        if (driver != null)
+                //        {
+                //            driver = new FirefoxDriver();
+                //            driver.Manage().Window.Maximize();
+                //        }
+                //        break;
+                //    case "opera":
+                //        if (driver == null)
+                //        {
+
+                //            driver.Manage().Window.Maximize();
+                //        }
+                //        break;
                 //}
+                return driver;                
             }
         }
 

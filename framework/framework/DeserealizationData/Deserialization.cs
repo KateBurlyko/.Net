@@ -1,4 +1,5 @@
 ﻿using framework.DeserealizationData.LoginData;
+using framework.DeserealizationData.SearchData;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,5 +20,11 @@ namespace framework.DeserealizationData
             return all;
         }
 
+        public AllQueries DeserialiseSearchQuery(string filePath)
+        {
+            var catalogSerialiser = new XmlSerializer(typeof(AllQueries));
+            AllQueries quer = (AllQueries)catalogSerialiser.Deserialize(new XmlTextReader(filePath));
+            return quer;
+        }
     }
 }

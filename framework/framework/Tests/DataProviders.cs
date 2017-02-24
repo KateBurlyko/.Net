@@ -1,16 +1,13 @@
 ﻿using framework.DeserealizationData;
 using framework.DeserealizationData.LoginData;
+using framework.DeserealizationData.SearchData;
 using framework.JournalItem;
 using framework.Parser;
 using framework.Search;
 using framework.Tests.PageObject;
 using NUnit.Framework;
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace framework.Tests
 {
@@ -52,6 +49,17 @@ namespace framework.Tests
                 foreach (User all in allUsers.Users)
                 {
                     yield return new TestCaseData(all.Login, all.Password, all.Expected);
+                }
+            }
+
+            public static IEnumerable SearchData()
+            {
+                Deserialization des = new Deserialization();
+                AllQueries all = des.DeserialiseSearchQuery(DesirialisationData.Default.searchData);
+                List<Query> query = all.GetQuery(all);
+                foreach (Query sin in query)
+                {
+                    yield return new TestCaseData(sin.Querys, sin.Expected);
                 }
             }
         }

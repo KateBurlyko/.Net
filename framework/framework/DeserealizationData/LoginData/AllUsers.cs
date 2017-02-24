@@ -10,10 +10,7 @@ namespace framework.DeserealizationData.LoginData
     [Serializable]
     public class AllUsers
     {
-
         [XmlElement("user")]
-        public List<User> Users { get; set; }
-
-        
+        public List<User> Users { get; set; }        
     }
 }

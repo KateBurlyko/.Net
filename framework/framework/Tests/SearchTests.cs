@@ -12,13 +12,13 @@ namespace framework.mustransme
    // [Parallelizable]//(ParallelScope.Fixtures)]
     class SearchTests
     {
-        [Test, TestCaseSource(typeof(TestCasesProvider), "TestCaseSearch")]
-        public static void searchTest(BaseSearch query)
+        [Test, TestCaseSource(typeof(TestCasesProvider), "SearchData")]
+        public static void searchTest(string query, string expected)
         {
             SearchPage searchPage = new SearchPage();
 
-            searchPage.Navigation(query.Query);
-            Assert.True(searchPage.FindSearchResults(query.Expected));
+            searchPage.Navigation(query);
+            Assert.True(searchPage.FindSearchResults(expected));
         }
 
         [Test]
