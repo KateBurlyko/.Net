@@ -1,11 +1,5 @@
-﻿using framework.DeserealizationData.LoginData;
-using framework.Tests.PageObject;
+﻿using framework.Tests.PageObject;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static framework.Tests.DataProviders;
 
 namespace framework.mustransme

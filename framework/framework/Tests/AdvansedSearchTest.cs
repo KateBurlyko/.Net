@@ -1,4 +1,5 @@
-﻿using framework.DeserealizationData.AdvansedSearch;
+﻿using framework.DataDeserialize.AdvansedSearchItems;
+using framework.DataDeserialize.AdvansedSearchItemsItems;
 using framework.PageObject;
 using NUnit.Framework;
 using System.Collections.Generic;
@@ -15,9 +16,11 @@ namespace framework.Tests
             AdvansedSearchPage asp = new AdvansedSearchPage();
             AdderTitles addTitles = new AdderTitles();
             AdderTypesAndLimits adder = new AdderTypesAndLimits();
+            AdderDates add = new AdderDates();
             List<TitleItems> items = addTitles.AddTitles(keywords);
             List<ContentItems> limits = adder.AddLimits(contentTypes);
             List<ContentItems> types = adder.AddTitles(contentTypes);
+            List<DateItems> dateItems = add.AddDates(dates);
             asp.Navigate();
             foreach (TitleItems ti in items)
             {
@@ -31,12 +34,18 @@ namespace framework.Tests
             {
                 asp.ChooseLimitToContent(ct.TypesAndLimits);
             }
+            foreach (DateItems date in dateItems)
+            {
+                asp.ChosePublicationDate(date.Date);
+            }
+            asp.StartSearch();
+            Assert.True(asp.FindSearchResults());
         }
 
-        //[OneTimeTearDown]
-        //public static void Cleanup()
-        //{
-        //    WebDriver.KillDriver();
-        //}
+        [OneTimeTearDown]
+        public static void Cleanup()
+        {
+            WebDriver.KillDriver();
+        }
     }
 }

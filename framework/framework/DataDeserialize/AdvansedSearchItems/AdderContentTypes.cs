@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace framework.DeserealizationData.AdvansedSearch
+namespace framework.DataDeserialize.AdvansedSearchItems
 {
     class ContentItems
     {
@@ -32,11 +29,11 @@ namespace framework.DeserealizationData.AdvansedSearch
             List<ContentItems> tit = new List<ContentItems>();
             foreach (ContentTypes ct in types)
             {
-                if (!ct.Articles.Equals(null)) tit.Add(new ContentItems(ct.Articles));
-                if (!ct.Blogs.Equals(null)) tit.Add(new ContentItems(ct.Blogs));
-                if (!ct.Images.Equals(null)) tit.Add(new ContentItems(ct.Images));
-                if (!ct.Podcast.Equals(null)) tit.Add(new ContentItems(ct.Podcast));
-                if (!ct.Videos.Equals(null)) tit.Add(new ContentItems(ct.Videos));
+                if (String.IsNullOrEmpty(ct.Articles)) tit.Add(new ContentItems(ct.Articles = "Article"));
+                if (!String.IsNullOrEmpty(ct.Blogs)) tit.Add(new ContentItems(ct.Blogs));
+                if (!String.IsNullOrEmpty(ct.Images)) tit.Add(new ContentItems(ct.Images));
+                if (!String.IsNullOrEmpty(ct.Podcast)) tit.Add(new ContentItems(ct.Podcast));
+                if (!String.IsNullOrEmpty(ct.Videos)) tit.Add(new ContentItems(ct.Videos));
             }
             return tit;
         }
@@ -46,10 +43,10 @@ namespace framework.DeserealizationData.AdvansedSearch
             List<ContentItems> tit = new List<ContentItems>();
             foreach (ContentTypes ki in types)
             {
-                foreach(LimitToContentWith qw in ki.ContentLimits)
+                foreach (LimitToContentWith qw in ki.ContentLimits)
                 {
-                    if (!qw.CmeCE.Equals(null)) tit.Add(new ContentItems(qw.CmeCE));
-                    if (!qw.SDC.Equals(null)) tit.Add(new ContentItems(qw.SDC));
+                    if (!String.IsNullOrEmpty(qw.CmeCE)) tit.Add(new ContentItems(qw.CmeCE));
+                    if (!String.IsNullOrEmpty(qw.SDC)) tit.Add(new ContentItems(qw.SDC));
                 }
             }
             return tit;

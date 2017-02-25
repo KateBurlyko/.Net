@@ -1,10 +1,10 @@
-﻿using framework.DeserealizationData.AdvansedSearch;
-using framework.DeserealizationData.LoginData;
-using framework.DeserealizationData.SearchData;
+﻿using framework.DataDeserialize.AdvansedSearchItems;
+using framework.DataDeserialize.BaseSearchItems;
+using framework.DataDeserialize.LoginItems;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace framework.DeserealizationData
+namespace framework.DataDeserialize
 {
     class Deserialization
     {

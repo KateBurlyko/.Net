@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace framework.DeserealizationData.AdvansedSearch
+namespace framework.DataDeserialize.AdvansedSearchItems
 {
     [Serializable]
     public class SearchItems

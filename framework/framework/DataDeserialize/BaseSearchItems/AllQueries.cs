@@ -1,17 +1,13 @@
-﻿using System;
+﻿using framework.DataDeserialize.baseSearchItems;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace framework.DeserealizationData.SearchData
+namespace framework.DataDeserialize.BaseSearchItems
 {
    public class AllQueries
     {
         [XmlElement("query")]
         public List<Query> Queries { get; set; }
-
 
         public List<Query> GetQuery(AllQueries all)
         {

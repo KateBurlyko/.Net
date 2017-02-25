@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace framework.DeserealizationData.AdvansedSearch
+namespace framework.DataDeserialize.AdvansedSearchItems
 {
     [Serializable]
-   public class SearchParams
+    public class SearchParams
     {
         [XmlElement("SearchItems")]
         public List<SearchItems> Items { get; set; }

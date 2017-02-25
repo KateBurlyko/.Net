@@ -1,7 +1,8 @@
-﻿using framework.DeserealizationData;
-using framework.DeserealizationData.AdvansedSearch;
-using framework.DeserealizationData.LoginData;
-using framework.DeserealizationData.SearchData;
+﻿using framework.DataDeserialize;
+using framework.DataDeserialize.AdvansedSearchItems;
+using framework.DataDeserialize.baseSearchItems;
+using framework.DataDeserialize.BaseSearchItems;
+using framework.DataDeserialize.LoginItems;
 using framework.JournalItem;
 using NUnit.Framework;
 using System.Collections;

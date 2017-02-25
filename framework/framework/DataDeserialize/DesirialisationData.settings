@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="framework.DataDeserialize" GeneratedClassName="DesirialisationData">
+  <Profiles />
+  <Settings>
+    <Setting Name="loginPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Janek\Documents\Visual Studio 2015\Projects\framework\framework\DataDeserialize\XmlFiles\loginData.xml</Value>
+    </Setting>
+    <Setting Name="searchData" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Janek\Documents\Visual Studio 2015\Projects\framework\framework\DataDeserialize\XmlFiles\SearchData.xml</Value>
+    </Setting>
+    <Setting Name="advansedSearchData" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Janek\Documents\Visual Studio 2015\Projects\framework\framework\DataDeserialize\XmlFiles\AdvansedSearchData.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

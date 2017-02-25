@@ -20,10 +20,10 @@
 
     </Keywords>
     <ContentTypes>
-      <articles>Article</articles>
+      <articles></articles>
       <images>Image</images>
       <podcast></podcast>
-      <videos></videos>
+      <videos>Video</videos>
       <blogs>Blog</blogs>
       <LimitToContentWith>
         <cmeCE></cmeCE>
@@ -31,9 +31,9 @@
       </LimitToContentWith>
     </ContentTypes>
     <PublicationDates>
-      <allDates>0</allDates>
+      <allDates></allDates>
       <twelveMounth></twelveMounth>
-      <threeYears></threeYears>
+      <threeYears>2</threeYears>
       <fiveYears></fiveYears>
       <eightYears></eightYears>
     </PublicationDates>

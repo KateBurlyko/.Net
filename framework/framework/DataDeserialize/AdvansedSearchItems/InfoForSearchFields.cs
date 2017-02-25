@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace framework.DeserealizationData.AdvansedSearch
+namespace framework.DataDeserialize.AdvansedSearchItems
 {
     [Serializable]
     public class Keywords
@@ -38,7 +38,7 @@ namespace framework.DeserealizationData.AdvansedSearch
         [XmlElement("idAuthor")]
         public string IDAuthor { get; set; }
 
-        [XmlElement("idAbstract")]
+        [XmlElement("idAbctract")]
         public string IDAbstract { get; set; }
 
         [XmlElement("idFullText")]

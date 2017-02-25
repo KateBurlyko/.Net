@@ -89,26 +89,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DeserealizationData\AdvansedSearch\AdderContentTypes.cs" />
-    <Compile Include="DeserealizationData\AdvansedSearch\AdderTitlesForAdvansedSearch.cs" />
+    <Compile Include="DataDeserialize\AdvansedSearchItems\AdderContentTypes.cs" />
+    <Compile Include="DataDeserialize\AdvansedSearchItems\AdderPublicationDates.cs" />
+    <Compile Include="DataDeserialize\AdvansedSearchItems\AdderTitlesForAdvansedSearch.cs" />
     <Compile Include="Data.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Data.settings</DependentUpon>
     </Compile>
-    <Compile Include="DeserealizationData\AdvansedSearch\SearchItems.cs" />
-    <Compile Include="DeserealizationData\AdvansedSearch\SearchParams.cs" />
-    <Compile Include="DeserealizationData\AdvansedSearch\InfoForSearchFields.cs" />
-    <Compile Include="DeserealizationData\DesirialisationData.Designer.cs">
+    <Compile Include="DataDeserialize\AdvansedSearchItems\SearchItems.cs" />
+    <Compile Include="DataDeserialize\AdvansedSearchItems\SearchParams.cs" />
+    <Compile Include="DataDeserialize\AdvansedSearchItems\InfoForSearchFields.cs" />
+    <Compile Include="DataDeserialize\DesirialisationData.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>DesirialisationData.settings</DependentUpon>
     </Compile>
-    <Compile Include="DeserealizationData\Deserialization.cs" />
-    <Compile Include="DeserealizationData\LoginData\AllUsers.cs" />
-    <Compile Include="DeserealizationData\LoginData\User.cs" />
-    <Compile Include="DeserealizationData\BaseSearch\AllQueries.cs" />
-    <Compile Include="DeserealizationData\BaseSearch\Query.cs" />
+    <Compile Include="DataDeserialize\Deserialization.cs" />
+    <Compile Include="DataDeserialize\LoginItems\AllUsers.cs" />
+    <Compile Include="DataDeserialize\LoginItems\User.cs" />
+    <Compile Include="DataDeserialize\BaseSearchItems\AllQueries.cs" />
+    <Compile Include="DataDeserialize\BaseSearchItems\Query.cs" />
     <Compile Include="JournalItem\AllJournals.cs" />
     <Compile Include="PageObject\AdvansedSearchPage.cs" />
     <Compile Include="Tests\AdvansedSearchTest.cs" />
@@ -137,7 +138,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Data.Designer.cs</LastGenOutput>
     </None>
-    <None Include="DeserealizationData\DesirialisationData.settings">
+    <None Include="DataDeserialize\DesirialisationData.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>DesirialisationData.Designer.cs</LastGenOutput>
     </None>
@@ -151,9 +152,9 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DeserealizationData\XmlFiles\AdvansedSearchData.xml" />
-    <Content Include="DeserealizationData\XmlFiles\loginData.xml" />
-    <Content Include="DeserealizationData\XmlFiles\SearchData.xml" />
+    <Content Include="DataDeserialize\XmlFiles\AdvansedSearchData.xml" />
+    <Content Include="DataDeserialize\XmlFiles\loginData.xml" />
+    <Content Include="DataDeserialize\XmlFiles\SearchData.xml" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
