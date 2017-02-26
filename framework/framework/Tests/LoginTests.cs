@@ -5,7 +5,7 @@ using static framework.Tests.DataProviders;
 namespace framework.mustransme
 {
     [TestFixture]
-    //[Parallelizable]//(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     class LoginTests
     {
         [Test, TestCaseSource(typeof(TestCasesProvider), "NegativeLoginData")]

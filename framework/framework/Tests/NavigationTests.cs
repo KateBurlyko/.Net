@@ -4,7 +4,7 @@ using static framework.Tests.DataProviders;
 namespace framework
 {
     [TestFixture]
-   // [Parallelizable]//(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     class TestClassTests
     {
         /// <summary>

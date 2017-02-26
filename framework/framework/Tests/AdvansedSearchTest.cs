@@ -8,6 +8,7 @@ using static framework.Tests.DataProviders;
 namespace framework.Tests
 {
     [TestFixture]
+    //[Parallelizable(ParallelScope.Fixtures)]
     class AdvansedSearchTest
     {
         [Test, TestCaseSource(typeof(TestCasesProvider), "AdvansedSearchData")]
