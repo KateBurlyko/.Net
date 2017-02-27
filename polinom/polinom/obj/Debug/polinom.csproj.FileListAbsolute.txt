@@ -1,0 +1,6 @@
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\polinom\polinom\bin\Debug\polinom.exe.config
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\polinom\polinom\bin\Debug\polinom.exe
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\polinom\polinom\bin\Debug\polinom.pdb
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\polinom\polinom\obj\Debug\polinom.csprojResolveAssemblyReference.cache
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\polinom\polinom\obj\Debug\polinom.exe
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\polinom\polinom\obj\Debug\polinom.pdb

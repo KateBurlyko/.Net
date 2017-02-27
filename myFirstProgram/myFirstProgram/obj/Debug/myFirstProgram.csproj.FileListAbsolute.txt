@@ -1,0 +1,12 @@
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\myFirstProgram.exe.config
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\myFirstProgram.exe
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\myFirstProgram.pdb
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\nunit.framework.dll
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\WebDriver.dll
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\WebDriver.Support.dll
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\nunit.framework.xml
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\WebDriver.xml
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\bin\Debug\WebDriver.Support.xml
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\obj\Debug\myFirstProgram.csprojResolveAssemblyReference.cache
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\obj\Debug\myFirstProgram.exe
+c:\users\katsiaryna_burlyka\documents\visual studio 2015\Projects\myFirstProgram\myFirstProgram\obj\Debug\myFirstProgram.pdb
