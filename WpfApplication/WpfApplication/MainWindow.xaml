@@ -5,8 +5,50 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="489.103">
-    <Grid Margin="0,0,-8,0">
-        <Button x:Name="Browse" Content="Browse" HorizontalAlignment="Left" Height="24" Margin="311,10,0,0" VerticalAlignment="Top" Width="121"/>
+        Title="MainWindow" Height="600" Width="900">
+    <Grid x:Name="MainWindow1" Margin="0,0,-8,0">
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF6067B2" Offset="0.527"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition
+        Height="600"/>
+            <RowDefinition
+        Height="170*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Browse" Content="Browse" HorizontalAlignment="Left" Height="48" Margin="622,44,0,0" VerticalAlignment="Top" Width="236" Click="Browse_Click">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFB91313"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="FilePath" HorizontalAlignment="Left" Height="91" Margin="9,15,0,0" TextWrapping="Wrap" Text="Chose file" VerticalAlignment="Top" Width="562" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.546"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFBFF112" Offset="0.603"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="368" Margin="10,168,0,0" VerticalAlignment="Top" Width="156" RenderTransformOrigin="0.467,1.212" MouseDoubleClick="listBox_MouseDoubleClick"/>
+        <ListBox x:Name="listBoxTypes" HorizontalAlignment="Left" Height="368" Margin="190,168,0,0" VerticalAlignment="Top" Width="311"/>
+        <ListBox x:Name="listBoxAll" HorizontalAlignment="Left" Height="368" Margin="543,168,0,0" VerticalAlignment="Top" Width="315"/>
+        <RadioButton x:Name="radioButtonFields" Content="Fields" HorizontalAlignment="Left" Height="21" Margin="524,109,0,0" VerticalAlignment="Top" Width="68" />
+        <RadioButton x:Name="radioButtonProperties" Content="Properties" HorizontalAlignment="Left" Height="21" Margin="611,109,0,0" VerticalAlignment="Top" Width="80"/>
+        <RadioButton x:Name="radioButtonAll" Content="All" HorizontalAlignment="Left" Height="21" Margin="812,109,0,0" VerticalAlignment="Top" Width="46"/>
+        <RadioButton x:Name="radioButtonMethods" Content="Methods" HorizontalAlignment="Left" Height="23" Margin="711,107,0,0" VerticalAlignment="Top" Width="77"/>
     </Grid>
 </Window>
