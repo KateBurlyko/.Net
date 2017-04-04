@@ -22,6 +22,7 @@ namespace Сalculator
     {
         public delegate string InputNumber(string v);
         Numbers numbers = new Numbers();
+        InputNumber input;
         public MainWindow()
         {
             InitializeComponent();
@@ -36,7 +37,7 @@ namespace Сalculator
         {
             if (textBox.Text.Contains("="))
             {
-                InputNumber input = new InputNumber(numbers.getNumbers);
+                input = numbers.getNumbers;
                 textBox.Text = input.Invoke(textBox.Text = textBox.Text);
             }
         }
@@ -118,7 +119,7 @@ namespace Сalculator
 
         private void result_Click(object sender, RoutedEventArgs e)
         {
-            InputNumber input = new InputNumber(numbers.getNumbers);
+            input = numbers.getNumbers;
             textBox.Text = input.Invoke(textBox.Text = textBox.Text);
         }
     }
