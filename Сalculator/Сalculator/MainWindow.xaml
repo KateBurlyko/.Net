@@ -14,24 +14,24 @@
             </RadialGradientBrush>
         </Grid.Background>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="126" Margin="10,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="863" TextChanged="textBox_TextChanged" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="126" Margin="75,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="781" TextChanged="textBox_TextChanged" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
         <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Height="56" Margin="75,216,0,0" VerticalAlignment="Top" Width="140" Click="seven_Click" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Height="56" Margin="237,216,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="56" Margin="794,216,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Height="56" Margin="407,216,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="four" Content="4" HorizontalAlignment="Left" Height="56" Margin="75,298,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="five" Content="5" HorizontalAlignment="Left" Height="56" Margin="237,298,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="six" Content="6" HorizontalAlignment="Left" Height="56" Margin="407,298,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="one" Content="1" HorizontalAlignment="Left" Height="56" Margin="75,384,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="two" Content="2" HorizontalAlignment="Left" Height="56" Margin="237,384,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="three" Content="3" HorizontalAlignment="Left" Height="56" Margin="407,384,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="drop" Content="." HorizontalAlignment="Left" Height="56" Margin="75,468,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Height="56" Margin="237,468,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="clear" Content="C" HorizontalAlignment="Left" Height="56" Margin="407,468,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="56" Margin="706,216,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Height="56" Margin="794,298,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="multiplication" Content="*" HorizontalAlignment="Left" Height="56" Margin="706,298,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
-        <Button x:Name="result" Content="=" HorizontalAlignment="Left" Height="56" Margin="706,384,0,0" VerticalAlignment="Top" Width="150" FontSize="36" FontWeight="Bold" FontFamily="Ravie"/>
+        <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Height="56" Margin="237,216,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="eight_Click"/>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="56" Margin="706,298,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="plus_Click"/>
+        <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Height="56" Margin="407,216,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="nine_Click"/>
+        <Button x:Name="four" Content="4" HorizontalAlignment="Left" Height="56" Margin="75,298,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="four_Click"/>
+        <Button x:Name="five" Content="5" HorizontalAlignment="Left" Height="56" Margin="237,298,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="five_Click"/>
+        <Button x:Name="six" Content="6" HorizontalAlignment="Left" Height="56" Margin="407,298,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="six_Click"/>
+        <Button x:Name="one" Content="1" HorizontalAlignment="Left" Height="56" Margin="75,384,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="one_Click"/>
+        <Button x:Name="two" Content="2" HorizontalAlignment="Left" Height="56" Margin="237,384,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="two_Click"/>
+        <Button x:Name="three" Content="3" HorizontalAlignment="Left" Height="56" Margin="407,384,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="three_Click"/>
+        <Button x:Name="drop" Content="." HorizontalAlignment="Left" Height="56" Margin="75,468,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="drop_Click"/>
+        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Height="56" Margin="237,468,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="zero_Click"/>
+        <Button x:Name="clear" Content="C" HorizontalAlignment="Left" Height="56" Margin="407,468,0,0" VerticalAlignment="Top" Width="134" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="clear_Click"/>
+        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="56" Margin="794,298,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="minus_Click"/>
+        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Height="56" Margin="794,384,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="division_Click"/>
+        <Button x:Name="multiplication" Content="*" HorizontalAlignment="Left" Height="56" Margin="706,384,0,0" VerticalAlignment="Top" Width="62" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="multiplication_Click"/>
+        <Button x:Name="result" Content="=" HorizontalAlignment="Left" Height="56" Margin="706,468,0,0" VerticalAlignment="Top" Width="150" FontSize="36" FontWeight="Bold" FontFamily="Ravie" Click="result_Click"/>
 
     </Grid>
 </Window>
