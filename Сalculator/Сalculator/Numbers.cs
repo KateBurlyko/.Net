@@ -1,64 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Сalculator
 {
     class Numbers
     {
-        delegate string Operation(string[] numbers);
-        Operation operation;
-        public string getNumbers(string v)
+        public double[] Getnumbers(string v)
         {
-            if (v.Contains("-")) operation = Minus;
-            if (v.Contains("+")) operation = Add;
-            if (v.Contains("/")) operation = Division;
-            if (v.Contains("*")) operation = Multiply;
             string[] numbers = v.Trim(new char[] { '=', '*', '+', '/', '-' }).
                                Split(new char[] { '-', '+', '*', '/' });
-            return operation.Invoke(numbers);
+            double[] arr = new double[numbers.Length];
+            for (int i = 0; i<numbers.Length; i++)
+            {
+                arr[i] = Double.Parse(numbers[i]);
+            }
+            return arr;
+        }
+    }
+    class Operations
+    {
+        public double Add(double a, double b)
+        {
+            return (a + b);
         }
 
-        private string Add(string[] numbers)
+        public double Minus(double a, double b)
         {
-            double result = 0;
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                result += Double.Parse(numbers[i]);
-            }
-            return result.ToString();
+            return (a - b);
         }
 
-        private string Minus(string[] numbers)
+        public double Multiply(double a, double b)
         {
-            double result = Double.Parse(numbers[0]);
-            for (int i = 1; i < numbers.Length; i++)
-            {
-                result -= Double.Parse(numbers[i]);
-            }
-            return result.ToString();
+            return (a * b);
         }
 
-        private string Multiply(string[] numbers)
+        public double Division(double a, double b)
         {
-            double result = Double.Parse(numbers[0]); ;
-            for (int i = 1; i < numbers.Length; i++)
-            {
-                result *= Double.Parse(numbers[i]);
-            }
-            return result.ToString();
-        }
-
-        private string Division(string[] numbers)
-        {
-            double result = Double.Parse(numbers[0]); ;
-            for (int i = 1; i < numbers.Length; i++)
-            {
-                result /= Double.Parse(numbers[i]);
-            }
-            return result.ToString();
+            return (a / b);
         }
     }
 }

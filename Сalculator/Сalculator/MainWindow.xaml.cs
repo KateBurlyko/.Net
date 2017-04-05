@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Сalculator
 {
@@ -20,9 +8,11 @@ namespace Сalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        public delegate string InputNumber(string v);
+        public delegate double Calculate(double a, double b);
         Numbers numbers = new Numbers();
-        InputNumber input;
+        Operations operations = new Operations();
+        Calculate calculate;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -35,11 +25,8 @@ namespace Сalculator
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (textBox.Text.Contains("="))
-            {
-                input = numbers.getNumbers;
-                textBox.Text = input.Invoke(textBox.Text = textBox.Text);
-            }
+            double[] qwert = numbers.Getnumbers(textBox.Text);
+            textBox.Text = calculate.Invoke(qwert[0], qwert[1]).ToString();
         }
 
         private void clear_Click(object sender, RoutedEventArgs e)
@@ -100,27 +87,31 @@ namespace Сalculator
         private void minus_Click(object sender, RoutedEventArgs e)
         {
             textBox.Text = textBox.Text + "-";
+            calculate = operations.Minus;
         }
 
         private void plus_Click(object sender, RoutedEventArgs e)
         {
             textBox.Text = textBox.Text + "+";
+            calculate = operations.Add;
         }
 
         private void multiplication_Click(object sender, RoutedEventArgs e)
         {
             textBox.Text = textBox.Text + "*";
+            calculate = operations.Multiply;
         }
 
         private void division_Click(object sender, RoutedEventArgs e)
         {
             textBox.Text = textBox.Text + "/";
+            calculate = operations.Division;
         }
 
         private void result_Click(object sender, RoutedEventArgs e)
         {
-            input = numbers.getNumbers;
-            textBox.Text = input.Invoke(textBox.Text = textBox.Text);
+            double[] qwert = numbers.Getnumbers(textBox.Text);
+            textBox.Text = calculate.Invoke(qwert[0], qwert[1]).ToString();
         }
     }
 }
