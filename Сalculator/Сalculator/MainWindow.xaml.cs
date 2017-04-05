@@ -29,10 +29,10 @@ namespace Сalculator
             if ((textBox.Text).Contains("="))
             {
                 qwert = numbers.Getnumbers(textBox.Text);
-                if ((textBox.Text).Contains("+")) calculate = operations.Add;
-                if ((textBox.Text).Contains("-")) calculate = operations.Minus;
-                if ((textBox.Text).Contains("*")) calculate = operations.Multiply;
-                if ((textBox.Text).Contains("/")) calculate = operations.Division;
+                if ((textBox.Text).Contains("+")) calculate = (i, j) => i + j;
+                if ((textBox.Text).Contains("-")) calculate = (i, j) => i - j;
+                if ((textBox.Text).Contains("*")) calculate = (i, j) => i * j;
+                if ((textBox.Text).Contains("/")) calculate = (i, j) => i / j;
                 textBox.Text = calculate.Invoke(qwert[0], qwert[1]).ToString();
             }
         }
