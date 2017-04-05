@@ -25,8 +25,16 @@ namespace Сalculator
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            double[] qwert = numbers.Getnumbers(textBox.Text);
-            textBox.Text = calculate.Invoke(qwert[0], qwert[1]).ToString();
+            double[] qwert = new double[1];
+            if ((textBox.Text).Contains("="))
+            {
+                qwert = numbers.Getnumbers(textBox.Text);
+                if ((textBox.Text).Contains("+")) calculate = operations.Add;
+                if ((textBox.Text).Contains("-")) calculate = operations.Minus;
+                if ((textBox.Text).Contains("*")) calculate = operations.Multiply;
+                if ((textBox.Text).Contains("/")) calculate = operations.Division;
+                textBox.Text = calculate.Invoke(qwert[0], qwert[1]).ToString();
+            }
         }
 
         private void clear_Click(object sender, RoutedEventArgs e)
