@@ -1,0 +1,14 @@
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\bin\Debug\Сalculator.exe.config
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\bin\Debug\Сalculator.exe
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\bin\Debug\Сalculator.pdb
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\Сalculator.csprojResolveAssemblyReference.cache
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\MainWindow.g.cs
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\App.g.cs
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\Сalculator_MarkupCompile.cache
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\Сalculator_MarkupCompile.lref
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\MainWindow.baml
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\Сalculator.g.resources
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\Сalculator.Properties.Resources.resources
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\Сalculator.csproj.GenerateResource.Cache
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\Сalculator.exe
+c:\users\janek\documents\visual studio 2015\Projects\Сalculator\Сalculator\obj\Debug\Сalculator.pdb

@@ -1,0 +1,5 @@
+c:\users\janek\documents\visual studio 2015\Projects\testDelegate\testDelegate\bin\Debug\testDelegate.exe.config
+c:\users\janek\documents\visual studio 2015\Projects\testDelegate\testDelegate\bin\Debug\testDelegate.exe
+c:\users\janek\documents\visual studio 2015\Projects\testDelegate\testDelegate\bin\Debug\testDelegate.pdb
+c:\users\janek\documents\visual studio 2015\Projects\testDelegate\testDelegate\obj\Debug\testDelegate.exe
+c:\users\janek\documents\visual studio 2015\Projects\testDelegate\testDelegate\obj\Debug\testDelegate.pdb
