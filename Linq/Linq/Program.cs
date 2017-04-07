@@ -1,13 +1,14 @@
-﻿
-namespace Linq
+﻿namespace Linq
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Querries querries = new Querries();
-            querries.SecondQuerry();
-            querries.ThirdQuerry(20000);
+            FileWriter fileWriter = new FileWriter();
+            fileWriter.FistQuerry(25000);
+            fileWriter.SecondQuerry();
+            fileWriter.ThirdQuerry(10000);
+          //  querries.FourthQuerry();
         }
     }
 }

@@ -1,19 +1,8 @@
-orders more than: 20000
-Berglunds snabbkop
-Bon app'
-Bottom-Dollar Markets
-Ernst Handel
-Folk och fa HB
-Frankenversand
+any order more than: 10000
 Hanari Carnes
-HILARION-Abastos
 Hungry Owl All-Night Grocers
 Koniglich Essen
-Mere Paillarde
-Piccolo und mehr
-Queen Cozinha
 QUICK-Stop
 Rattlesnake Canyon Grocery
 Save-a-lot Markets
-Supremes delices
-White Clover Markets
+Simons bistro
