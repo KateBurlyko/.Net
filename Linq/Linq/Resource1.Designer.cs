@@ -61,7 +61,7 @@ namespace Linq {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Querry1.txt.
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry1.txt.
         /// </summary>
         internal static string Querry1 {
             get {
@@ -70,7 +70,7 @@ namespace Linq {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Querry2.txt.
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry2.txt.
         /// </summary>
         internal static string Querry2 {
             get {
@@ -79,7 +79,7 @@ namespace Linq {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Querry3.txt.
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry3.txt.
         /// </summary>
         internal static string Querry3 {
             get {
@@ -88,7 +88,7 @@ namespace Linq {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Querry4.txt.
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry4.txt.
         /// </summary>
         internal static string Querry4 {
             get {
@@ -97,7 +97,7 @@ namespace Linq {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Customers.xml.
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Customers.xml.
         /// </summary>
         internal static string XmlPath {
             get {

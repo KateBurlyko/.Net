@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Querry1" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Querry1.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry1.txt</value>
   </data>
   <data name="Querry2" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Querry2.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry2.txt</value>
   </data>
   <data name="Querry3" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Querry3.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry3.txt</value>
   </data>
   <data name="Querry4" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Querry4.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry4.txt</value>
   </data>
   <data name="XmlPath" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\Customers.xml</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Customers.xml</value>
   </data>
 </root>

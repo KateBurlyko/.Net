@@ -7,7 +7,7 @@ namespace Linq
         {
             Querries querries = new Querries();
             querries.SecondQuerry();
-            querries.ThirdQuerry(10000);
+            querries.ThirdQuerry(20000);
         }
     }
 }

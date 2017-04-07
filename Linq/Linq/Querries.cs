@@ -31,7 +31,7 @@ namespace Linq
         {
             allCustomers = xDoc.Element("customers").Elements("customer");
             var querry = from customer in allCustomers
-                         where customer.Elements("orders").Elements("order").Any(x => Double.Parse(x.Element("total").Value) > sumX)
+                         where customer.Element("orders").Elements("order").Sum(x => Double.Parse(x.Element("total").Value)) > sumX
                          select customer;
 
             using (StreamWriter sw = new StreamWriter(Resource1.Querry3, false, Encoding.Default))

@@ -9,3 +9,8 @@ C:\Users\Janek\Documents\Visual Studio 2015\projects2\Linq\Linq\obj\Debug\Linq.p
 C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\bin\Debug\Linq.exe.config
 C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\obj\Debug\Linq.exe
 C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\obj\Debug\Linq.pdb
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\bin\Debug\Linq.exe
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\bin\Debug\Linq.pdb
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\obj\Debug\Linq.csprojResolveAssemblyReference.cache
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\obj\Debug\Linq.Resource1.resources
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\obj\Debug\Linq.csproj.GenerateResource.Cache
