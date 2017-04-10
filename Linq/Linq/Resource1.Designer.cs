@@ -97,6 +97,42 @@ namespace Linq {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry5.txt.
+        /// </summary>
+        internal static string Querry5 {
+            get {
+                return ResourceManager.GetString("Querry5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry6.txt.
+        /// </summary>
+        internal static string Querry6 {
+            get {
+                return ResourceManager.GetString("Querry6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry7.txt.
+        /// </summary>
+        internal static string Querry7 {
+            get {
+                return ResourceManager.GetString("Querry7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry8.txt.
+        /// </summary>
+        internal static string Querry8 {
+            get {
+                return ResourceManager.GetString("Querry8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Customers.xml.
         /// </summary>
         internal static string XmlPath {

@@ -1,0 +1,69 @@
+city: Aachen -average price: 627.201666666667 average quantity of orders: 6
+city: Albuquerque -average price: 2838.76666666667 average quantity of orders: 18
+city: Anchorage -average price: 1527.112 average quantity of orders: 10
+city: Arhus -average price: 1440.35727272727 average quantity of orders: 11
+city: Barcelona -average price: 167.34 average quantity of orders: 5
+city: Barquisimeto -average price: 1148.32857142857 average quantity of orders: 14
+city: Bergamo -average price: 717.621 average quantity of orders: 10
+city: Berlin -average price: 712.166666666667 average quantity of orders: 6
+city: Bern -average price: 1543.61 average quantity of orders: 8
+city: Boise -average price: 3366.51483870968 average quantity of orders: 31
+city: Bracke -average price: 1556.18736842105 average quantity of orders: 19
+city: Brandenburg -average price: 2207.74142857143 average quantity of orders: 14
+city: Bruxelles -average price: 1390.86857142857 average quantity of orders: 7
+city: Buenos Aires -average price: 507.44375 average quantity of orders: 5
+city: Butte -average price: 649.08 average quantity of orders: 3
+city: Campinas -average price: 934.904444444445 average quantity of orders: 9
+city: Caracas -average price: 744.35 average quantity of orders: 2
+city: Charleroi -average price: 2007.39833333333 average quantity of orders: 12
+city: Cork -average price: 2630.52157894737 average quantity of orders: 19
+city: Cowes -average price: 614.63 average quantity of orders: 10
+city: Cunewalde -average price: 3938.47571428572 average quantity of orders: 28
+city: Elgin -average price: 612.64 average quantity of orders: 5
+city: Eugene -average price: 1682.49545454545 average quantity of orders: 11
+city: Frankfurt a.M.  -average price: 1284.09466666667 average quantity of orders: 15
+city: Geneve -average price: 1934.378 average quantity of orders: 10
+city: Graz -average price: 3495.83266666667 average quantity of orders: 30
+city: Helsinki -average price: 450.16875 average quantity of orders: 8
+city: I. de Margarita -average price: 1373.0475 average quantity of orders: 12
+city: Kirkland -average price: 523.733333333333 average quantity of orders: 3
+city: Kobenhavn -average price: 2402.44142857143 average quantity of orders: 7
+city: Koln -average price: 1221.28222222222 average quantity of orders: 9
+city: Lander -average price: 1271.29222222222 average quantity of orders: 9
+city: Leipzig -average price: 1008.44 average quantity of orders: 5
+city: Lille -average price: 2333.38 average quantity of orders: 5
+city: Lisboa -average price: 920.24 average quantity of orders: 7
+city: London -average price: 1148.37 average quantity of orders: 7
+city: Lulea -average price: 1384.865 average quantity of orders: 18
+city: Lyon -average price: 918.243 average quantity of orders: 10
+city: Madrid -average price: 712.5175 average quantity of orders: 2
+city: Mannheim -average price: 462.828571428571 average quantity of orders: 7
+city: Marseille -average price: 1291.95588235294 average quantity of orders: 17
+city: Mexico D.F. -average price: 842.216785714286 average quantity of orders: 5
+city: Montreal -average price: 2220.93769230769 average quantity of orders: 13
+city: Munchen -average price: 1777.104 average quantity of orders: 15
+city: Munster -average price: 582.948 average quantity of orders: 5
+city: Nantes -average price: 684.008571428571 average quantity of orders: 3
+city: Oulu -average price: 1043.24666666667 average quantity of orders: 15
+city: Paris -average price: 605.8375 average quantity of orders: 2
+city: Portland -average price: 634.966666666667 average quantity of orders: 6
+city: Reggio Emilia -average price: 587.353333333333 average quantity of orders: 12
+city: Reims -average price: 260 average quantity of orders: 4
+city: Resende -average price: 674.244444444444 average quantity of orders: 9
+city: Rio de Janeiro -average price: 1528.14647058823 average quantity of orders: 11
+city: Salzburg -average price: 2312.886 average quantity of orders: 10
+city: San Cristobal -average price: 1264.93111111111 average quantity of orders: 18
+city: San Francisco -average price: 769.1175 average quantity of orders: 4
+city: Sao Paulo -average price: 1323.433125 average quantity of orders: 8
+city: Seattle -average price: 1954.54357142857 average quantity of orders: 14
+city: Sevilla -average price: 1144.636 average quantity of orders: 10
+city: Stavern -average price: 955.858333333333 average quantity of orders: 6
+city: Strasbourg -average price: 1684.91636363636 average quantity of orders: 11
+city: Stuttgart -average price: 958.843 average quantity of orders: 10
+city: Torino -average price: 257.616666666667 average quantity of orders: 6
+city: Toulouse -average price: 666.3 average quantity of orders: 14
+city: Tsawassen -average price: 1485.82785714286 average quantity of orders: 14
+city: Vancouver -average price: 174.166666666667 average quantity of orders: 3
+city: Versailles -average price: 498.0125 average quantity of orders: 4
+city: Walla Walla -average price: 178.5 average quantity of orders: 2
+city: Warszawa -average price: 504.564285714286 average quantity of orders: 7

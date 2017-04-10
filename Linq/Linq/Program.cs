@@ -8,7 +8,10 @@
             fileWriter.FistQuerry(25000);
             fileWriter.SecondQuerry();
             fileWriter.ThirdQuerry(10000);
-          //  querries.FourthQuerry();
+            fileWriter.FourthQuerry();
+            fileWriter.FifthQuerry();
+            fileWriter.SixthQuerry();
+            fileWriter.SeventhQuerry();
         }
     }
 }
