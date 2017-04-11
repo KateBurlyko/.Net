@@ -57,7 +57,13 @@ namespace Linq
                          let sum = customer.Element("orders").Elements("order").Sum(x => double.Parse(x.Element("total").Value))
                          let name = customer.Element("name").Value
                          orderby year, mounth, sum, name descending
-                         select $"{name} {year} {mounth} {sum}";
+                         select new
+                         {
+                             Name = name,
+                             Year = year,
+                             Mounth = mounth,
+                             Sum = sum
+                         };
             return querry;
         }
 
@@ -76,11 +82,11 @@ namespace Linq
             var groupByCity = from city in allCustomers
                        group city by city.Element("city").Value;
             var querry = from customer in groupByCity
-                         let sum = customer.Descendants("order").Average(x => double.Parse(x.Element("total").Value))
+                         let averagePrise = customer.Descendants("order").Average(x => double.Parse(x.Element("total").Value))
                          let quantityOrders = customer.Descendants("order").Count()
                          let quantityCustomers = customer.Count()
                          orderby customer.Elements("city").First().Value
-                         select $"city: {customer.Elements("city").First().Value} -average price: {sum} average quantity of orders: {quantityOrders / quantityCustomers}";
+                         select $"city: {customer.Elements("city").First().Value} -average price: {averagePrise} average quantity of orders: {quantityOrders / quantityCustomers}";
             return querry;
         }
     }

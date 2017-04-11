@@ -1,0 +1,89 @@
+{ Name = Centro comercial Moctezuma, Year = 1996, Mounth = 7, Sum = 100.8 }
+{ Name = GROSELLA-Restaurante, Year = 1996, Mounth = 7, Sum = 1488.7 }
+{ Name = Wilman Kala, Year = 1996, Mounth = 7, Sum = 3601.35 }
+{ Name = Wellington Importadora, Year = 1996, Mounth = 7, Sum = 6068.2 }
+{ Name = Que Delicia, Year = 1996, Mounth = 7, Sum = 6664.81 }
+{ Name = Tradicao Hipermercados, Year = 1996, Mounth = 7, Sum = 8714.06 }
+{ Name = Victuailles en stock, Year = 1996, Mounth = 7, Sum = 9182.43 }
+{ Name = Chop-suey Chinese, Year = 1996, Mounth = 7, Sum = 12348.88 }
+{ Name = Old World Delicatessen, Year = 1996, Mounth = 7, Sum = 15271.12 }
+{ Name = Wartian Herkku, Year = 1996, Mounth = 7, Sum = 15648.7 }
+{ Name = Blondel pere et fils, Year = 1996, Mounth = 7, Sum = 18534.08 }
+{ Name = Richter Supermarkt, Year = 1996, Mounth = 7, Sum = 19343.78 }
+{ Name = HILARION-Abastos, Year = 1996, Mounth = 7, Sum = 22768.76 }
+{ Name = Supremes delices, Year = 1996, Mounth = 7, Sum = 24088.78 }
+{ Name = Frankenversand, Year = 1996, Mounth = 7, Sum = 26656.56 }
+{ Name = White Clover Markets, Year = 1996, Mounth = 7, Sum = 27363.61 }
+{ Name = Folk och fa HB, Year = 1996, Mounth = 7, Sum = 29567.56 }
+{ Name = Hanari Carnes, Year = 1996, Mounth = 7, Sum = 32841.37 }
+{ Name = Rattlesnake Canyon Grocery, Year = 1996, Mounth = 7, Sum = 51097.8 }
+{ Name = Ernst Handel, Year = 1996, Mounth = 7, Sum = 104874.98 }
+{ Name = Vins et alcools Chevalier, Year = 1996, Mounth = 8, Sum = 1040 }
+{ Name = Romero y tomillo, Year = 1996, Mounth = 8, Sum = 1467.29 }
+{ Name = Comercio Mineiro, Year = 1996, Mounth = 8, Sum = 3810.75 }
+{ Name = Morgenstern Gesundkost, Year = 1996, Mounth = 8, Sum = 5042.2 }
+{ Name = B's Beverages, Year = 1996, Mounth = 8, Sum = 6089.9 }
+{ Name = Reggiani Caseifici, Year = 1996, Mounth = 8, Sum = 7048.24 }
+{ Name = Magazzini Alimentari Riuniti, Year = 1996, Mounth = 8, Sum = 7176.21 }
+{ Name = Tortuga Restaurante, Year = 1996, Mounth = 8, Sum = 10812.15 }
+{ Name = Split Rail Beer & Ale, Year = 1996, Mounth = 8, Sum = 11441.63 }
+{ Name = Ricardo Adocicados, Year = 1996, Mounth = 8, Sum = 12450.8 }
+{ Name = LILA-Supermercado, Year = 1996, Mounth = 8, Sum = 16076.6 }
+{ Name = Lehmanns Marktstand, Year = 1996, Mounth = 8, Sum = 19261.42 }
+{ Name = Berglunds snabbkop, Year = 1996, Mounth = 8, Sum = 24927.57 }
+{ Name = QUICK-Stop, Year = 1996, Mounth = 8, Sum = 110277.32 }
+{ Name = Ana Trujillo Emparedados y helados, Year = 1996, Mounth = 9, Sum = 1402.95 }
+{ Name = Du monde entier, Year = 1996, Mounth = 9, Sum = 1615.9 }
+{ Name = The Big Cheese, Year = 1996, Mounth = 9, Sum = 3361 }
+{ Name = Lonesome Pine Restaurant, Year = 1996, Mounth = 9, Sum = 4258.6 }
+{ Name = Island Trading, Year = 1996, Mounth = 9, Sum = 6146.3 }
+{ Name = Die Wandernde Kuh, Year = 1996, Mounth = 9, Sum = 9588.43 }
+{ Name = Godos Cocina Tipica, Year = 1996, Mounth = 9, Sum = 11446.36 }
+{ Name = Hungry Owl All-Night Grocers, Year = 1996, Mounth = 9, Sum = 49979.91 }
+{ Name = Bolido Comidas preparadas, Year = 1996, Mounth = 10, Sum = 4232.85 }
+{ Name = Pericles Comidas clasicas, Year = 1996, Mounth = 10, Sum = 4242.2 }
+{ Name = Furia Bacalhau e Frutos do Mar, Year = 1996, Mounth = 10, Sum = 6427.42 }
+{ Name = Princesa Isabel Vinhos, Year = 1996, Mounth = 10, Sum = 6455.94 }
+{ Name = Simons bistro, Year = 1996, Mounth = 10, Sum = 16817.09 }
+{ Name = Bon app', Year = 1996, Mounth = 10, Sum = 21963.25 }
+{ Name = Mere Paillarde, Year = 1996, Mounth = 10, Sum = 28872.19 }
+{ Name = Koniglich Essen, Year = 1996, Mounth = 10, Sum = 30908.38 }
+{ Name = Save-a-lot Markets, Year = 1996, Mounth = 10, Sum = 104361.96 }
+{ Name = Galeria del gastronomo, Year = 1996, Mounth = 11, Sum = 836.7 }
+{ Name = Drachenblut Delikatessen, Year = 1996, Mounth = 11, Sum = 3763.21 }
+{ Name = Familia Arquibaldo, Year = 1996, Mounth = 11, Sum = 4107.55 }
+{ Name = Antonio Moreno Taqueria, Year = 1996, Mounth = 11, Sum = 7023.97 }
+{ Name = La maison d'Asie, Year = 1996, Mounth = 11, Sum = 9328.2 }
+{ Name = Around the Horn, Year = 1996, Mounth = 11, Sum = 13390.65 }
+{ Name = Eastern Connection, Year = 1996, Mounth = 11, Sum = 14761.04 }
+{ Name = Vaffeljernet, Year = 1996, Mounth = 11, Sum = 15843.93 }
+{ Name = Seven Seas Imports, Year = 1996, Mounth = 11, Sum = 16215.33 }
+{ Name = Piccolo und mehr, Year = 1996, Mounth = 11, Sum = 23128.86 }
+{ Name = Hungry Coyote Import Store, Year = 1996, Mounth = 12, Sum = 3063.2 }
+{ Name = Wolski  Zajazd, Year = 1996, Mounth = 12, Sum = 3531.95 }
+{ Name = Sante Gourmet, Year = 1996, Mounth = 12, Sum = 5735.15 }
+{ Name = Bottom-Dollar Markets, Year = 1996, Mounth = 12, Sum = 20801.59 }
+{ Name = Queen Cozinha, Year = 1996, Mounth = 12, Sum = 25717.5 }
+{ Name = Franchi S.p.A., Year = 1997, Mounth = 1, Sum = 1545.7 }
+{ Name = Oceano Atlantico Ltda., Year = 1997, Mounth = 1, Sum = 3460.2 }
+{ Name = Gourmet Lanchonetes, Year = 1997, Mounth = 1, Sum = 8414.14 }
+{ Name = Ottilies Kaseladen, Year = 1997, Mounth = 1, Sum = 10991.54 }
+{ Name = Folies gourmandes, Year = 1997, Mounth = 1, Sum = 11666.9 }
+{ Name = LINO-Delicateses, Year = 1997, Mounth = 1, Sum = 16476.57 }
+{ Name = Consolidated Holdings, Year = 1997, Mounth = 2, Sum = 1719.1 }
+{ Name = Rancho grande, Year = 1997, Mounth = 2, Sum = 2844.1 }
+{ Name = Toms Spezialitaten, Year = 1997, Mounth = 2, Sum = 2914.74 }
+{ Name = Lazy K Kountry Store, Year = 1997, Mounth = 3, Sum = 357 }
+{ Name = Laughing Bacchus Wine Cellars, Year = 1997, Mounth = 4, Sum = 522.5 }
+{ Name = North/South, Year = 1997, Mounth = 4, Sum = 649 }
+{ Name = Cactus Comidas para llevar, Year = 1997, Mounth = 4, Sum = 1814.8 }
+{ Name = Blauer See Delikatessen, Year = 1997, Mounth = 4, Sum = 3239.8 }
+{ Name = Maison Dewey, Year = 1997, Mounth = 5, Sum = 9736.08 }
+{ Name = Great Lakes Food Market, Year = 1997, Mounth = 5, Sum = 18507.45 }
+{ Name = Trail's Head Gourmet Provisioners, Year = 1997, Mounth = 6, Sum = 1571.2 }
+{ Name = Let's Stop N Shop, Year = 1997, Mounth = 6, Sum = 3076.47 }
+{ Name = The Cracker Box, Year = 1997, Mounth = 8, Sum = 1947.24 }
+{ Name = Alfreds Futterkiste, Year = 1997, Mounth = 8, Sum = 4273 }
+{ Name = France restauration, Year = 1997, Mounth = 9, Sum = 3172.16 }
+{ Name = Specialites du monde, Year = 1997, Mounth = 11, Sum = 2423.35 }
+{ Name = La corne d'abondance, Year = 1998, Mounth = 1, Sum = 1992.05 }

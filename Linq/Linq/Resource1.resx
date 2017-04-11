@@ -118,30 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Querry1" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry1.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\OutputFiles\Querry1.txt</value>
   </data>
   <data name="Querry2" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry2.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\OutputFiles\Querry2.txt</value>
   </data>
   <data name="Querry3" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry3.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\OutputFiles\Querry3.txt</value>
   </data>
   <data name="Querry4" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry4.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\OutputFiles\Querry4.txt</value>
   </data>
   <data name="Querry5" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry5.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\OutputFiles\Querry5.txt</value>
   </data>
   <data name="Querry6" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry6.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\OutputFiles\Querry6.txt</value>
   </data>
   <data name="Querry7" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry7.txt</value>
-  </data>
-  <data name="Querry8" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Querry8.txt</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\OutputFiles\Querry7.txt</value>
   </data>
   <data name="XmlPath" xml:space="preserve">
-    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\Customers.xml</value>
+    <value>C:\Users\Janek\Documents\Visual Studio 2015\Projects\Linq\Linq\OutputFiles\Customers.xml</value>
   </data>
 </root>
